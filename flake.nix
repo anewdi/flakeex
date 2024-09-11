@@ -5,8 +5,7 @@
     let
         settings = {
             hostname = "thinkpad"; #Select host
-            #Only matters for standalone
-            system =  "x86_64-linux";
+            system =  "x86_64-linux"; #Only matters for standalone
         };
     in
     {
